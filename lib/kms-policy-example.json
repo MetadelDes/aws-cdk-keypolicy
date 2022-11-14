@@ -1,0 +1,10 @@
+
+{
+  "Sid": "Enable IAM policies",
+  "Effect": "Allow",
+  "Principal": {
+    "AWS": "arn:aws:iam::ACCOUNT_ID:root"
+   },
+  "Action": "kms:*",
+  "Resource": "*"
+}
